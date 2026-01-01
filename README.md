@@ -18,7 +18,7 @@ FiveM resource that adds a customizable radio animation menu with four animation
    ```
    ensure RadioAnimationMenu
    ```
-3. If using any radio script, make sure to disable its default animations to prevent conflicts
+3. If using Zerio-Radio, disable its default animations to prevent conflicts
 
 ## Usage
 
@@ -47,3 +47,8 @@ Edit `config.lua` to customize:
 
 For support, DM sigs9263 on Discord.
 
+## Credits
+
+- **Sigs9263** – Development and implementation of the Radio Animation Menu  
+- **Alberttheprince** – Animations and props from **rpemotes-reborn** (https://github.com/alberttheprince/rpemotes-reborn)
+- **Unknown** – Original radio prop source  (I forgot who I got the radio prop from, but credits to you)
