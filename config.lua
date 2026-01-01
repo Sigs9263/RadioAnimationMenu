@@ -8,7 +8,7 @@ Config.MenuCommand = "radioanim"
 Config.SoundsCommand = "radioclicks" -- Command to toggle radio clicks ("/radioclicks on" / "/radioclicks off")
 
 -- Keybind for radio animation
-Config.RadioKeybind = "CAPS" -- Keybind for radio animation (CAPS = Capslock)
+Config.RadioKeybind = "CAPITAL" -- Keybind for radio animation (CAPITAL = Caps Lock)
 Config.RadioKeybindDescription = "Play Radio Animation" -- Description shown in keybind settings
 
 -- Default animation when script starts
