@@ -1,4 +1,4 @@
-# Radio Animation Menu
+# Radio Animation Menu (Completely Standalone)
 
 FiveM resource that adds a customizable radio animation menu with four animation styles.
 
