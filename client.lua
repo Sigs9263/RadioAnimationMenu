@@ -230,7 +230,6 @@ CreateThread(function()
             end
             if HasModelLoaded(propModelHash) then
                 propModelPreloaded = true
-                print("^2[RadioAnimationMenu] Preloaded handheld radio prop model^7")
             end
         end
     end
@@ -248,7 +247,6 @@ CreateThread(function()
         end
         if HasAnimDictLoaded(handheldAnim.dict) then
             loadedAnimDicts[handheldAnim.dict] = true
-            print("^2[RadioAnimationMenu] Preloaded handheld radio animation^7")
         end
     end
 end)
