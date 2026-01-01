@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-container {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    min-width: 280px;
+    background: linear-gradient(135deg, #1a1d29 0%, #0f1117 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.menu-container.visible {
+    display: block;
+}
+
+.menu-header {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.menu-section-header {
+    background-color: rgba(30, 35, 45, 0.95);
+    padding: 8px 16px;
+    color: #a0c4ff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-list {
+    background-color: rgba(20, 23, 33, 0.95);
+}
+
+.menu-item {
+    padding: 12px 16px;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item:hover,
+.menu-item.selected {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.menu-item-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item.disabled .menu-item-text {
+    color: #888888;
+    opacity: 0.6;
+}
+
+audio {
+    display: none;
+}
